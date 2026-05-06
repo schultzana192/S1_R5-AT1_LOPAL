@@ -1,9 +1,7 @@
-let mensaGem = "";
+let soma = 0; 
+// variavel para identificar a soma
 
-for (let i = 10; i >= 1; i--) {
-
-    // mensagem = "10 9 8 7 6 5 4 3 2 1";
-    mensaGem = `${mensaGem} ${i}`;
-
+for (let i = 1; i <= 10; i++) {
+    soma += i ;
 }
-alert(mensaGem);
+alert (soma)
